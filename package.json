@@ -1,0 +1,44 @@
+{
+  "name": "ajs-regex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iravahnina/ajs-regex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iravahnina/ajs-regex/issues"
+  },
+  "homepage": "https://github.com/iravahnina/ajs-regex#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.10.2"
+  }
+}
